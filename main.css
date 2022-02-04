@@ -1,0 +1,75 @@
+
+*{
+  padding: 0;
+  /* box-sizing: border-box; */
+  font-weight: 700;
+}
+body {
+  background-color: rgba(66, 31, 150, 0.753);
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+img.clothes {
+  width: 40px;
+  /* padding: 2px 10px; */
+}
+
+
+header {
+  text-align: center;
+  margin-top: 30px;
+}
+.select {
+  display: flex;
+  justify-content: center;
+}
+.select ul.image {
+  display: flex;
+  align-items: center;
+}
+.select ul.image .clothes {
+  margin: 0 15px;
+}
+.select ul.color {
+  display: flex;
+  align-items: center;
+}
+.select ul.color li {
+  margin: 0 5px;
+}
+.select ul.color li span {
+  padding: 10px;
+}
+.select ul.color li .blue {
+  background-color: rgb(45, 45, 167);
+}
+.select ul.color li .yellow {
+  background-color: rgb(211, 176, 20);
+}
+.select ul.color li .pink {
+  background-color: rgb(248, 59, 90);
+}
+.list ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list ul li {
+  display: flex;
+  align-items: center;
+  background-color: whitesmoke;
+  margin-bottom: 5px;
+  width: 50%;
+  border-radius: 5px;
+}
+.list ul li img {
+  padding: 3px 10px;
+}
+.list ul li span {
+  margin-left: 10px;
+}
+.list ul li.blue-clothes.active {
+  border: 2px solid black;
+}
